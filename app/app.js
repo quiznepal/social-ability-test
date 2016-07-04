@@ -4,7 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.startpage',
-  'myApp.view2',
+  'myApp.quizboard',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {

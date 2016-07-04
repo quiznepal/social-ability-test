@@ -9,6 +9,9 @@ angular.module('myApp.startpage', ['ngRoute'])
   });
 }])
 
-.controller('startpage', [function() {
-
+.controller('startpage',['$scope', '$location', function($scope,$location) {
+	$scope.start = function (path) {
+		// alert("hey start");
+		$location.path("/quizboard");
+	}
 }]);
