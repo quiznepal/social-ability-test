@@ -100,6 +100,7 @@ angular.module('myApp.quizboard', ['ngRoute'])
 			loadQuestion();
 		} else {
 			console.log(total);
+			alert("your score is : "+total);
 		}
 	}
 
