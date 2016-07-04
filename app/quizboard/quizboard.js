@@ -59,11 +59,12 @@ angular.module('myApp.quizboard', ['ngRoute'])
 	}
 
 	var cleanOptionClicked = function () {
-		$scope.option0 = "";
-		$scope.option1 = "";
-		$scope.option2 = "";
-		$scope.option3 = "";
-		$scope.option4 = "";
+		var value = "btn-primary";
+		$scope.option0 = value;
+		$scope.option1 = value;
+		$scope.option2 = value;
+		$scope.option3 = value;
+		$scope.option4 = value;
 	}
 	
 
@@ -85,7 +86,7 @@ angular.module('myApp.quizboard', ['ngRoute'])
 	$scope.optionsOnClick = function (counter) {
 		cleanOptionClicked();
 		optionsClicked = counter;
-		$scope["option"+counter] = "clicked";
+		$scope["option"+counter] = "btn-success";
 	}
 
 	$scope.next = function () {

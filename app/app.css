@@ -30,10 +30,11 @@
 }
 
 .options {
-  background: #c9c9c9;
-  margin: 10px;
+  /*background: #c9c9c9;*/
+  /*margin: 10px;*/
   text-align: center;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .options.clicked {
