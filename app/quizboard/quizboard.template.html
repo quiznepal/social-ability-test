@@ -1,5 +1,7 @@
-<p>{{question}}</p>
-<button ng-click="start(0)">{{ans0}}</button>
-<button ng-click="start(1)">{{ans1}}</button>
-<button ng-click="start(2)">{{ans2}}</button>
-<button ng-click="start(3)">{{ans3}}</button>
+<div class="col-md-12">{{question}}</div>
+<div ng-click="optionsOnClick(0)" class="col-md-6 options {{option0}}">{{ans0}}</div>
+<div ng-click="optionsOnClick(1)" class="col-md-6 options {{option1}}">{{ans1}}</div>
+<div ng-click="optionsOnClick(2)" class="col-md-6 options {{option2}}">{{ans2}}</div>
+<div ng-click="optionsOnClick(3)" class="col-md-6 options {{option3}}">{{ans3}}</div>
+<div ng-click="optionsOnClick(4)" class="col-md-6 options {{option4}}">{{ans4}}</div>
+<button ng-click="next()">ok</button>

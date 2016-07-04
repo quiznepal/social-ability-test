@@ -28,3 +28,14 @@
   content: "";
   padding: 0;
 }
+
+.options {
+  background: #c9c9c9;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.options.clicked {
+  background: #00ff00;
+}

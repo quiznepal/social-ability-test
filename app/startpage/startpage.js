@@ -10,6 +10,7 @@ angular.module('myApp.startpage', ['ngRoute'])
 }])
 
 .controller('startpage',['$scope', '$location', function($scope,$location) {
+	$scope.count = 0;
 	$scope.start = function (path) {
 		// alert("hey start");
 		$location.path("/quizboard");
