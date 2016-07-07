@@ -5,6 +5,8 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.startpage',
   'myApp.quizboard',
+  'myApp.scorePage',
+  'myApp.services',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
