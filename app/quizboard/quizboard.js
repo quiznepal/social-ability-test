@@ -30,7 +30,7 @@ angular.module('myApp.quizboard', ['ngRoute'])
 		"Parties and social events scare me.",
 		"I avoid talking to people I don’t know.",
 		"Being criticized scares me a lot.",
-		/*"I avoid doing things or speaking to people for fear of embarrassment.",
+		"I avoid doing things or speaking to people for fear of embarrassment.",
 		"Sweating in front of people causes me distress.",
 		"I avoid going to parties.",
 		"I avoid activities in which I am the center of attention.",
@@ -41,7 +41,7 @@ angular.module('myApp.quizboard', ['ngRoute'])
 		"I am afraid of doing things when people might be watching.",
 		"Being embarrassed or looking stupid are among my worst fears.",
 		"I avoid speaking to anyone in authority.",
-		"Trembling or shaking in front of others is distressing to me."*/
+		"Trembling or shaking in front of others is distressing to me."
 	];
 
 	var answers = [
