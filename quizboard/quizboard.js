@@ -9,7 +9,7 @@ angular.module('myApp.quizboard', ['ngRoute'])
   });
 }])
 
-.controller('quizboard',['$scope', '$location', function($scope,$location) {
+.controller('quizboard',['$scope', '$location', 'shareScore', function($scope,$location,shareScore) {
 	console.log($scope.count);
 	/*if ($scope.count===0 || $scope.count>=16) {
 		$scope.count=0;
@@ -100,7 +100,9 @@ angular.module('myApp.quizboard', ['ngRoute'])
 			loadQuestion();
 		} else {
 			console.log(total);
-			alert("your score is : "+total);
+			shareScore.setScore(total);
+			$location.path("/scorepage");
+			// alert("your score is : "+total);
 		}
 	}
 

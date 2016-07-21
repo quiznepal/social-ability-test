@@ -1,17 +1,17 @@
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">{{question}}</div>
+		<h4 class="col-md-12">{{question}}</h4>
 	</div>
 </div>
 <div class="container">
-	<div class="row center-block ">
-		<div ng-click="optionsOnClick(0)" class="col-md-6 col-md-offset-3 options {{option0}}">{{ans0}}</div>
-		<div ng-click="optionsOnClick(1)" class="col-md-6 col-md-offset-3 options {{option1}}">{{ans1}}</div>
-		<div ng-click="optionsOnClick(2)" class="col-md-6 col-md-offset-3 options {{option2}}">{{ans2}}</div>
-		<div ng-click="optionsOnClick(3)" class="col-md-6 col-md-offset-3 options {{option3}}">{{ans3}}</div>
-		<div ng-click="optionsOnClick(4)" class="col-md-6 col-md-offset-3 options {{option4}}">{{ans4}}</div>
+	<div class="row center-block col-md-6">
+		<div ng-click="optionsOnClick(0)" class="btn btn-block   options {{option0}}">{{ans0}}</div>
+		<div ng-click="optionsOnClick(1)" class="btn btn-block   options {{option1}}">{{ans1}}</div>
+		<div ng-click="optionsOnClick(2)" class="btn btn-block   options {{option2}}">{{ans2}}</div>
+		<div ng-click="optionsOnClick(3)" class="btn btn-block   options {{option3}}">{{ans3}}</div>
+		<div ng-click="optionsOnClick(4)" class="btn btn-block   options {{option4}}">{{ans4}}</div>
 		<div class="col-md-12">
-			<button ng-click="next()">ok</button>
+			<button ng-click="next()" type="button" class="btn btn-default btn-danger btn-md">ok! here's my ans</button>
 		</div>
 	</div>
 </div>
