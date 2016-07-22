@@ -1,18 +1,19 @@
-# angular-seed — the seed for AngularJS apps
+# Social Phobia Test
 
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
-You can use it to quickly bootstrap your angular webapp projects and dev environment for these
-projects.
+The Social Phobia Inventory (SPIN) is a questionnaire developed by Dr. Jonathan Davidson at Duke University for screening and measuring generalized social anxiety disorder. The assessment scale consists of 17 items covering the spectrum of social phobia such as fear, avoidance, and physiological factors. Each item is ranked by the test taker on a scale of intensity, from “Not at All” to “Extremely” and assigned a corresponding number value. A score higher than 19 indicates likelihood of a social anxiety disorder.
 
-The seed contains a sample AngularJS application and is preconfigured to install the Angular
-framework and a bunch of development and testing tools for instant web development gratification.
+## Take this test?
 
-The seed app doesn't do much, just shows how to wire two controllers and views together.
+<a href="https://quiznepal.github.io/social-ability-test">click me :D</a>
 
+
+# Techinal side
+
+Its made on angular js with  <a href="https://github.com/angular/angular-seed">angular-seed</a> as base
 
 ## Getting Started
 
-To get you started you can simply clone the angular-seed repository and install the dependencies:
+To get you started you can simply clone the this repository and install the dependencies:
 
 ### Prerequisites
 
@@ -22,22 +23,14 @@ You need git to clone the angular-seed repository. You can get git from
 We also use a number of node.js tools to initialize and test angular-seed. You must have node.js and
 its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
 
-### Clone angular-seed
+### Clone this quiz
 
 Clone the angular-seed repository using [git][git]:
 
 ```
-git clone https://github.com/angular/angular-seed.git
-cd angular-seed
+git clone https://github.com/quiznepal/social-ability-test
+cd social-ability-test
 ```
-
-If you just want to start a new project without the angular-seed commit history then you can do:
-
-```bash
-git clone --depth=1 https://github.com/angular/angular-seed.git <your-project-name>
-```
-
-The `depth=1` tells git to only pull down one commit worth of historical data.
 
 ### Install Dependencies
 
@@ -89,14 +82,7 @@ app/                    --> all of the source files for the application
       version-directive_test.js  --> version directive tests
       interpolate-filter.js      --> custom interpolation filter
       interpolate-filter_test.js --> interpolate filter tests
-  view1/                --> the view1 view template and logic
-    view1.html            --> the partial template
-    view1.js              --> the controller logic
-    view1_test.js         --> tests of the controller
-  view2/                --> the view2 view template and logic
-    view2.html            --> the partial template
-    view2.js              --> the controller logic
-    view2_test.js         --> tests of the controller
+  
   app.js                --> main application module
   index.html            --> app layout file (the main html template file of the app)
   index-async.html      --> just like index.html, but loads js files asynchronously
@@ -106,7 +92,7 @@ e2e-tests/            --> end-to-end tests
   scenarios.js          --> end-to-end scenarios to be run by Protractor
 ```
 
-## Testing
+## Testing (not yet complete)
 
 There are two kinds of tests in the angular-seed application: Unit tests and end-to-end tests.
 
